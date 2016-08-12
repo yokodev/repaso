@@ -1,0 +1,8 @@
+ This lessons is about util.inherits method, this method takes two parameters, the first parameter is the object which I want more properties, and the second parameter is where the properties I want the first object to have reside in
+
+ this is app
+
+ in app2 there is  ES6 way
+
+example.js :
+	here is just a notepad for the book design patterns 
