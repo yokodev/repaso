@@ -1,0 +1,20 @@
+{
+  "name": "express-first-run",
+  "version": "1.0.0",
+  "description": "Just a refresher on express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "refresher",
+    "dummy",
+    "code",
+    "excercise"
+  ],
+  "author": "jat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
