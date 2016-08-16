@@ -1,0 +1,22 @@
+<html ng-app="TestApp">
+    <head>
+        <title>MEAN STACK test</title>
+        <script 
+        src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    </head>
+    <body ng-controller="MainController as vm">
+        <input type="text" ng-model="vm.message"/>
+        <br/>
+        {{vm.message}}
+        <script> 
+            var clientPeople = <%-JSON.stringify(serverPeople)%>;
+        </script>
+
+        <script src="/assets/js/app.js"></script>
+        <ul>
+            <li ng-repeat="person in vm.people">
+                {{person.firstname}}
+            </li>
+        </ul>
+    </body>
+</html>
